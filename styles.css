@@ -37,9 +37,17 @@ a {
   height: 2.8rem;
   margin-bottom: 1.6rem;
 }
+.search-input:focus {
+}
 .btn {
   background-color: #303134;
   font-size: 1rem;
   color: white;
   padding: 0.5rem 1.2rem;
+}
+.btn:hover {
+  background: #30313488;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
