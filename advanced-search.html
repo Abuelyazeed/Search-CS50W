@@ -18,20 +18,46 @@
         <a href="index.html">Google Search</a>
       </button>
       <button type="button" class="btn m-1">
-        <a href="advanced-search.html">Google Advanced Search</a>
+        <a href="advanced-search.html">Google Image Search</a>
       </button>
     </div>
-
-    <form class="search container" action="https://www.google.com/search">
-      <div class="search-input d-flex align-items-center justify-content-start">
-        <input class="search-text" type="text" name="q" autocomplete="off" />
-      </div>
-      <div class="search-btns">
-        <button type="submit" name="tbm" value="isch" class="btn m-1">
-          Image Search
-        </button>
-      </div>
-    </form>
+    <div class="container m-3">
+      <h2>Advanced Search</h2>
+      <p>Find pages with...</p>
+      <form action="https://www.google.com/search">
+        <div class="d-flex flex-column justify-content-start mt-5">
+          <div class="as-input">
+            <label for="">all these words:</label>
+            <input class="" type="text" name="as_q" autocomplete="off" />
+            <span>Type the important words: tri-colour rat terrier</span>
+          </div>
+          <div class="as-input">
+            <label for="">this exact word or phrase:</label>
+            <input class="" type="text" name="as_epq" autocomplete="off" />
+            <span>Put exact words in quotes: "rat terrier"</span>
+          </div>
+          <div class="as-input">
+            <label for="">any of these words:</label>
+            <input class="" type="text" name="as_oq" autocomplete="off" />
+            <span
+              >Type OR between all the words you want: miniature OR
+              standard</span
+            >
+          </div>
+          <div class="as-input">
+            <label for="">none of these words:</label>
+            <input class="" type="text" name="as_eq" autocomplete="off" />
+            <span
+              >Put a minus sign just before words that you don't want: -rodent,
+              -"Jack Russell"</span
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+          <button type="submit" class="btn as-btn">Advanced Search</button>
+        </div>
+      </form>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

@@ -1,5 +1,6 @@
 body {
   background-color: #202124;
+  color: white;
 }
 a {
   color: inherit;
@@ -77,4 +78,28 @@ a {
 span {
   color: grey;
   padding-right: 1rem;
+}
+label {
+  display: inline-block;
+  width: 15rem;
+}
+.as {
+  margin-top: 6rem;
+}
+
+.as-input {
+  margin-bottom: 0.8rem;
+}
+
+.as-input > input {
+  width: 30rem;
+}
+.as-input > span {
+  color: white;
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+  font-weight: lighter;
+}
+.as-btn {
+  background-color: #0e76d4;
 }
